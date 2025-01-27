@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration </title>
+    <link rel="stylesheet" href="Register.css">
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <img src="photo/Rigster/fanos.png" alt="fanos" class="fanos-img left">
+        <img src="photo/Rigster/fanos.png" alt="fanos" class="fanos-img right">
+
+        <div class="form-container">
+            <h1> Registration </h1>
+            <form method="post" action="home.html">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="location">Location</label>
+                    <input type="text" name="location" id="location" placeholder="Country/City" required>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="inline">
+                        <label><input type="radio" name="gender" value="male" required> Male</label>
+                        <label><input type="radio" name="gender" value="female" required> Female</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Do you adhere to praying on time?</label>
+                    <div class="inline">
+                        <label><input type="radio" name="pray_on_time" value="yes" required> Yes</label>
+                        <label><input type="radio" name="pray_on_time" value="no" required> No</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Do you give Zakat?</label>
+                    <div class="inline">
+                        <label><input type="radio" name="zakat" value="yes" required> Yes</label>
+                        <label><input type="radio" name="zakat" value="no" required> No</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Do you participate in any volunteer activities during Ramadan?</label>
+                    <div class="inline">
+                        <label><input type="radio" name="volunteer_activities" value="yes" required> Yes</label>
+                        <label><input type="radio" name="volunteer_activities" value="no" required> No</label>
+                    </div>
+                </div>
+    
+                <div class="form-group">
+                    <label>Would you like to participate in any Ramadan events?</label>
+                    <input type="checkbox" name="ramadan_events" value="yes"> Yes, I would like to participate
+                </div>
+    
+                <div class="form-group">
+                    <label for="ramadan_challenges">What are the biggest challenges you face during Ramadan?</label>
+                    <textarea name="ramadan_challenges" id="ramadan_challenges" rows="4" placeholder="e.g., fasting in summer, working during Ramadan" required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="personal_description">Can you share some of your favorite Ramadan experiences or activities?</label>
+                    <textarea name="personal_description" id="personal_description" rows="4" placeholder="Share your favorite Ramadan activities..." required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label for="ramadan_traditions">What are the most important traditions you like to practice during this month?</label>
+                    <textarea name="ramadan_traditions" id="ramadan_traditions" rows="4" placeholder="e.g., family gatherings, special meals..." required></textarea>
+                </div>
+    
+                <div class="form-group">
+                    <label>Subscription</label>
+                    <input type="checkbox" name="newsletter" value="subscribe"> Yes, I would like to receive Ramadan updates.
+                </div>
+                
+                <br><br>
+                <div class="buttons">
+                    <a href="Ifrmae.html" class="button">Submit</a>
+                    <button type="button" class="button">Reset</button>
+                </div>
+                
+            </form>   
+        </div>
+        <br><br>
+
+        <div class="image-container">
+            <img src="photo/Footer/footer.png" alt="Footer Image" class="footer-img">
+        </div>
+
+        <div class="copyright-container">
+            <p class="small">Copyright <b>© Nada &amp; Moustafa</b></p>
+        </div>
+    </div>
+</body>
+
+</html>
